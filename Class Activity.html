@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="classActivity.css">
+    <script src="function2.js" defer></script>
+</head>
+<body>
+        <img class="logo" src="pyppy logo.png" ></img>
+            <img id="logo1"></img>
+        <nav><ul> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>   
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="BannerImage" class="BannerImage"></div>
+        <div class="InfoArea1"></div>
+        <div id="userInfo"></div>
+        <p>Pets, particularly puppies, are like beams of sunshine in our lives, spreading joy and laughter
+ wherever they go. With their wagging tails and playful antics, they turn even the simplest moments 
+ into unforgettable adventures. Puppies teach us important lessons in love, patience, and companionship 
+ as we care for them and watch them grow. Their unwavering loyalty and endless affection remind us that 
+ we're never alone. With a puppy by our side, every day is brighter, happier, and filled with love. +
+        </p></div>
+        <div class="sectionArea1">
+            <table id="tableinfo"><caption><.ADOPT A PUPPY TODAY!>.</caption>
+                <thead>
+                    <tr class="tableheader">
+                        <th>Breed</th>
+                        <th>Vaccination Given</th>
+                        <th>Price</th>
+                        <th>Amount Remaining</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr class="tablebody rowcolor">
+                    <td>Purebred Siberian Husky</td>
+                    <td class="Vaccination">Canine Distemper Virus (CDV), Canine Parvovirus (CPV)</td>
+                    <td>Ksh 200,000</td><td>4</td>
+                </tr>
+                <tr class="tablebody rowcolor2">
+                    <td>ChowChow</td>
+                    <td class="Vaccination">Canine Adenovirus Type 2 (CAV-2)</td>
+                        <td>Ksh 180,000</td><td>1</td>
+                        <tr class="tablebody rowcolor3">
+                            <td>Rottweiler</td>
+                            <td class="Vaccination">Canine Parvovirus (CPV), Rabies</td>
+                                <td>Ksh 35,000</td><td>17</td>
+                                <tr class="tablebody rowcolor4">
+                                    <td>Japanese Spitz</td>
+                                    <td class="Vaccination">Rabies, Canine Distemper Virus (CDV)</td>
+                                        <td>Ksh 15,000</td><td>28</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div>
+            <div class="form">
+                <form class="formInfo" id="formid"><p1>Book Your Pet Here!</p1>
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="Dog Breed">Dog Breed?:</label>
+                    <select id="Dog Breed?" name="Dog Breed?">
+                        <option value="Siberian Husky">Siberian Husky</option>
+                        <option value="ChowChow">ChowChow</option>
+                        <option value="Rottweiler">Rottweiler</option>
+                        <option value="Japanese Spitz">Japanese Spitz</option>
+                    </select>
+                    <label for="Payment Method">Payment Method:</label>
+                    <select id="Payment Method" name="Payment Method">
+                    <option value="Cash">Cash</option>
+                    <option value="Card">Card</option>
+                    <option value="Bank">Bank</option>
+                    <option value="Paypal">Paypal</option>
+                </select>
+                </div>
+                <input type="submit" value="Submit" onclick="validateForm()">
+            </form>
+            </div>
+        <footer>PawPrintTM TERMS AND CONDITIONS APPLY</footer>
+    </main>
+</body>
+</html>
